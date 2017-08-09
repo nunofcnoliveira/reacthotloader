@@ -1,0 +1,152 @@
+.container-fluid {
+	max-width: 1000px;
+	/* padding: 0px;
+	background-color:#9370DB; */
+}
+
+.navbar-default {
+	border-radius:0px;
+	background-color: #E8E8E8;
+	border-color: #E7E7E7;
+	margin-bottom: 0px;
+}
+
+.panel-wrapper {
+	margin-top: 10px;
+	border-color: #CCC;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+
+.panel-wrapper > .panel-heading {
+	background-color: #F2F2F2;
+	color: #00415D;
+	border-color: #F2F2F2;
+	text-align: center;
+}
+
+.panel-wrapper > .panel-heading h3 {
+	color: #FF7F50;
+}
+
+.container-fluid > .row {
+	padding: 0 10px 0 10px;
+	background-color: #FFFFFF;
+}
+
+.bntLogout {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+/*
+.row {
+	border: 1px solid red;
+}
+*/
+
+/* §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§ */
+
+.panel-login {
+	margin-top: 10px;
+	border-color: #ccc;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+
+.panel-login > .panel-heading {
+	background-color: #F2F2F2;
+	color: #00415D;
+	border-color: #F2F2F2;
+	text-align: center;
+}
+
+.panel-login>.panel-heading a, .panel-protected>.panel-heading a {
+	color: #666;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+
+.panel-login>.panel-heading h3.active, .panel-protected>.panel-heading h3.active {
+	color: #FF7F50;
+}
+
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover, .panel-login input:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+
+.btn-login {
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	outline: none;
+	background-color: #FF7F50;
+	color: #fff;
+	border-color: #FF8C00;
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.btn-login:hover, .btn-login:focus {
+	background-color: #FF8C00;
+	color: #fff;
+	border-color: #FF8C00;
+}
+
+.panel- login input.active:valid {
+	box-shadow: 0 0 5px 1px green;
+}
+
+.panel-login input.active:invalid {
+	box-shadow: 0 0 5px 1px red;
+}
+
+/* §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§ */
+
+.error {
+	color: red;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#messageBox {
+	display: none;
+	color: red;
+	font-weight:bold;
+	text-align: center;
+
+}
+
+.No-Match {
+	width: 500px;
+	padding: 40px;
+	margin: 250px auto;
+	/* background-color: black; */
+    background: -webkit-linear-gradient(black, darkred); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, darkred); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, darkred); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, darkred); /* Standard syntax */
+	color: #999;
+	font-family: "sans-serif";
+	font-size: 44px;
+	text-align: center;
+	border-radius: 10px;
+}
